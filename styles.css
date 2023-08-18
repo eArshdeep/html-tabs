@@ -1,28 +1,37 @@
 .window {
     background-color: #ebedf0;
-  }
-  
-  .tabs-container {
+    width: 800px;
+}
+
+.tabs-container {
     font-size: 0px;
-  }
-  
-  .tab {
+}
+
+.tab {
     font-size: 16px;
     display: inline-block;
     padding: 20px 30px;
     border: none;
     cursor: pointer;
-  }
-  
-  .tab:not(.active-tab):hover {
+}
+
+.tab:not(.active-tab):hover {
     background-color: #ddd;
-  }
-  
-  .content {
+    transition-timing-function: ease-in;
+    transition: 0.2s;
+}
+
+.content {
     background-color: #fefef2;
     padding: 30px;
-  }
-  
-  .active-tab {
+}
+
+.active-tab {
     background-color: #aeebbe;
-  }
+}
+
+.active-tab:hover {
+    filter: brightness(0.85);
+    transition-timing-function: ease-in;
+    transition: 0.2s;
+}

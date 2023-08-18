@@ -1,0 +1,28 @@
+.window {
+    background-color: #ebedf0;
+  }
+  
+  .tabs-container {
+    font-size: 0px;
+  }
+  
+  .tab {
+    font-size: 16px;
+    display: inline-block;
+    padding: 20px 30px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .tab:not(.active-tab):hover {
+    background-color: #ddd;
+  }
+  
+  .content {
+    background-color: #fefef2;
+    padding: 30px;
+  }
+  
+  .active-tab {
+    background-color: #aeebbe;
+  }

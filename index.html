@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Tabs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="window">
+        <div class="tabs-container">
+            <button class="tab active-tab" onclick="onTabClick(event, 'info-tab-content')">Information</button>
+            <button class="tab" onclick="onTabClick(event, 'warranty-tab-content')">Warranty</button>
+            <button class="tab" onclick="onTabClick(event, 'contact-tab-content')">Contact</button>
+        </div>
+        <div id="info-tab-content" class="content">
+            Information here.
+        </div>
+        <div id="warranty-tab-content" class="content" style="display:none">
+            Warranty information here.
+        </div>
+        <div id="contact-tab-content" class="content" style="display:none">
+            Contact information here.
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
